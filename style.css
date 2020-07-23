@@ -8,6 +8,8 @@ header {
   align-items: center;
   justify-content: space-between;
   font-family: 'Quicksand', sans-serif;
+  position: relative;
+  line-height: 1;
 }
 
 footer {
