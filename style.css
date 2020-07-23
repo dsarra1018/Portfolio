@@ -1,0 +1,16 @@
+body {
+  background: #F3E8E7;
+}
+
+header {
+  padding: 0.9375rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
