@@ -2,6 +2,13 @@ body {
   background: #F3E8E7;
 }
 
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+
 header {
   padding: 0.9375rem 0;
   display: flex;
@@ -58,6 +65,12 @@ header {
   padding: 0 1.25rem;
 }
 
+#password-generator {
+  background-image: url(./assets/img/Password-Generator.png);
+  width: fit-content;
+  height: fit-content;
+}
+
 footer {
   padding: 1.25rem;
   font-family: 'Quicksand', 'sans-serif';
@@ -74,7 +87,7 @@ footer {
 
 .footer-social-link {
   display: flex;
-  margin: 0 0.625rem;
+  margin: 0 0.925rem;
 }
 
 a {
