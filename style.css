@@ -80,6 +80,18 @@ header {
   -o-background-size: cover;
 }
 
+.cover {
+  display: grid;
+  place-items: center;  
+}
+
+.cover-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 80px;
+  letter-spacing: 0.5rem;
+  color: #F3E8E7;
+}
+
 #projects-cover {
   background-image: url(./assets/img/project-cover.jpg);
 }
