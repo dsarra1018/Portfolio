@@ -70,11 +70,21 @@ header {
   padding: 0 1.25rem;
 }
 
+@media (max-width: 1024px) {
+  .cover {
+    height: 100vh;
+  }
+
+  #scroll {
+    display: none;
+  }
+}
+
 .cover {
-  width: 100%;
-  height: 525px;
-  background-position: center center;
+  height: 35rem;
+  margin-bottom: 2rem;
   background-size: cover;
+  background-position: initial;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,8 +102,17 @@ header {
   color: #F3E8E7;
 }
 
+#scroll {
+  font-size: 60px;
+}
+
+#scroll:hover {
+  color: #F3E8E7;
+}
+
 #projects-cover {
-  background-image: url(./assets/img/project-cover.jpg);
+  background-image: url(../img/project-cover.png);
+
 }
 
 footer {
