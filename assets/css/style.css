@@ -3,3 +3,17 @@
  margin: 0;
  box-sizing: border-box; 
 }
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 17%;
+  min-width: 240px;
+  max-width: 360px;
+  z-index: 999;
+}
