@@ -8,12 +8,39 @@ a {
   text-decoration: none;
 }
 
-.nav-container {
+.nav-bar-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 17%;
   min-width: 240px;
-  max-width: 360px;
+  max-width: 260px;
   z-index: 999;
+}
+
+.nav-bar {
+  width: 100%;
+  background: #eae7dc;
+  color: #000;
+  padding: 80px 0 40px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+}
+
+.desktop-logo {
+  margin: 5px 0 60px;
+  padding: 0 13%;
+}
+
+.desktop-logo a {
+  display: inline-block;
+  position: relative;
+  border: none;
+}
+
+.mobile-logo {
+  display: none;
 }
