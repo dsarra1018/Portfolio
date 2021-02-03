@@ -32,7 +32,7 @@ a {
 }
 
 .desktop-logo {
-  margin: 5px 0 60px;
+  margin: 5px 0 50%;
   padding: 0 13%;
 }
 
@@ -49,4 +49,27 @@ a {
 
 .mobile-logo {
   display: none;
+}
+
+.menu-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.menu-links a:hover {
+  color: #ff1100;
+}
+
+.menu .menu-links a {
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
