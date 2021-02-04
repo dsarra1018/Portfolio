@@ -23,6 +23,7 @@
   transform: translateX(4px);
 }
 
+/* Underline From Left */
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
