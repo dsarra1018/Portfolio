@@ -68,9 +68,8 @@ a {
 .menu .menu-links a {
   line-height: 1;
   font-size: 18px;
-  font-weight: bolder;
   letter-spacing: 1px;
-  font-family: 'Lato', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding-top: 5%;
   padding-bottom: 5%;
 }
