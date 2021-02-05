@@ -47,7 +47,7 @@ a {
   transition: .1s linear;
 }
 
-.mobile-logo {
+.mobile-logo, .mobile-menu {
   display: none;
 }
 

@@ -22,48 +22,56 @@
   <div id="home">
     <div class="nav-bar-container">
       <div class="nav-bar">
-        <!--Logos-->
-        <div class="desktop-logo">
-          <a href="./index.html">
-            <img id="logo" src="./assets/img/logo.png" alt="Darren Sarra">
-          </a>
+        <div class="nav-bar-holder" style="flex: 1 0 auto;">
+          <!--Logos-->
+          <div class="desktop-logo">
+            <a href="./index.html">
+              <img id="logo" src="./assets/img/logo.png" alt="Darren Sarra">
+            </a>
+          </div>
+          <div class="mobile-logo">
+            <a href="./index.html">
+              <img src="./assets/img/favicon.ico" alt="Darren Sarra's initial">
+            </a>
+          </div>
+
+          <!--Navigation-->
+          <div class="menu-container">
+            <nav class="menu">
+              <ul class="menu-links">
+                <li>
+                  <a class="hvr-underline-reveal" href="./index.html">HOME</a>
+                </li>
+              </ul>
+              <ul class="menu-links">
+                <li>
+                  <a class="hvr-underline-reveal" href="./pages/about.html">ABOUT</a>
+                </li>
+              </ul>
+              <ul class="menu-links">
+                <li>
+                  <a href="./index.html" class="hvr-underline-reveal hvr-icon-forward">PROJECTS<i class="fa fa-chevron-circle-right hvr-icon"></i></a>
+                </li>
+              </ul>
+              <ul class="menu-links">
+                <li>
+                  <a class="hvr-underline-reveal" href="./pages/contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!--Hamburger Menu-->
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
         </div>
-        <div class="mobile-logo">
-          <a href="./index.html">
-            <img src="./assets/img/favicon.ico" alt="Darren Sarra's initial">
-          </a>
-        </div>
-
-        <!--Navigation-->
-        <div class="menu-container">
-          <nav class="menu">
-            <ul class="menu-links">
-              <li>
-                <a class="hvr-underline-reveal" href="./index.html">HOME</a>
-              </li>
-            </ul>
-            <ul class="menu-links">
-              <li>
-                <a class="hvr-underline-reveal" href="./pages/about.html">ABOUT</a>
-              </li>
-            </ul>
-            <ul class="menu-links">
-              <li>
-                <a href="#" class="hvr-underline-reveal hvr-icon-forward">PROJECTS<i class="fa fa-chevron-circle-right hvr-icon"></i></a>
-              </li>
-            </ul>
-            <ul class="menu-links">
-              <li>
-                <a class="hvr-underline-reveal" href="./pages/contact.html">CONTACT</a>
-              </li>
-
-            </ul>
-          </nav>
-        </div>
-
-
       </div>
     </div>
+
+
   </div>
 </body>
 </html>
