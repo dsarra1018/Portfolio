@@ -43,7 +43,7 @@ a {
 }
 
 #logo:hover {
-  opacity: .2;
+  opacity: .4;
   transition: .1s linear;
 }
 
