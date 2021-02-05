@@ -41,7 +41,7 @@
   right: 0;
   bottom: 0;
   background: #ff1100;
-  height: 4px;
+  height: 2px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
   -webkit-transition-property: transform;
