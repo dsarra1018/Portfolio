@@ -14,7 +14,7 @@ a {
   left: 0;
   width: 17%;
   min-width: 240px;
-  max-width: 260px;
+  max-width: 360px;
   z-index: 999;
 }
 
@@ -32,7 +32,7 @@ a {
 }
 
 .desktop-logo {
-  margin: 5px 0 30%;
+  margin: 10px 0 60px;
 }
 
 .desktop-logo a {
