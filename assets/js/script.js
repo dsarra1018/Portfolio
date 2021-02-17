@@ -1,7 +1,7 @@
 const navSlide = () => {
   const menu = document.querySelector(".mobile-menu");
   const nav = document.querySelector(".menu-container");
-  const links = document.querySelector(".menu-links li");
+  const links = document.querySelectorAll(".menu-links li");
   const main_cont = document.querySelector(".content-holder");
 
   menu.addEventListener("click", () => {
